@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: special1;
+  src: url(./assets/file1.woff2);
+}
+
+@font-face {
+  font-family: special2;
+  src: url(./assets/file2.woff2);
+}
+
+@font-face {
+  font-family: special3;
+  src: url(./assets/file3.woff2);
+}
+
+@font-face {
+  font-family: special4;
+  src: url(./assets/file4.woff2);
+}
+
+@font-face {
+  font-family: special5;
+  src: url(./assets/file5.woff2);
+}
+
+html,
+body{
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'gilroy';
+}
+
+#page1-in{
+  position: relative;
+  perspective: 1500px;
+}
+#tiltDiv{
+  /* background-color: antiquewhite; */
+  width: fit-content;
+}
+#section{
+  position: relative;
+  perspective: 1500px;
+}
+.rotateText{
+  transform-origin: 100% 70%;
+}
+#section-1{
+  position: relative;
+  perspective: 1500px;
+}
+.rotatetext{
+  transform-origin: 100% 70%;
+}
